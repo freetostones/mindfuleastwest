@@ -172,11 +172,12 @@ html, body {
 }
 
 #titleImg {
+  width: 60%;
+  height: auto;
   display: block;
   margin: auto;
   padding-top: 3%;
   padding-bottom: 3%;
-}
 }
 
 #sectionHeader {
