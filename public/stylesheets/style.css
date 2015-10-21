@@ -105,6 +105,9 @@ html, body {
 .nav {
   height: 40px;
   background-color: #F6B50F;
+  font-family: 'Roboto Slab';
+  font-weight: 700;
+  font-size: 18px;
 }
 
 .nav ul {
@@ -115,8 +118,6 @@ html, body {
     list-style:none;
     background-color: #F6B50F;
     text-align:center;
-    font-family: 'Roboto Slab';
-    font-weight: bolder;
     display: flex;
 }
 .nav li {
