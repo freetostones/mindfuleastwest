@@ -204,3 +204,44 @@ html, body {
   overflow-x: hidden;
 }
 
+.menu {
+  text-align: center;
+  vertical-align: middle;
+  /*margin: 0;
+  position: absolute;
+  top: 50%;
+  transform: translate(0, -50%)*/
+  font-family: 'Roboto Slab';
+  font-weight: 700;
+  font-size: 40px;
+
+}
+
+.menu a{
+  text-decoration: none;
+  color: black;
+  display: block;
+  padding-bottom: 20%;
+}
+.menu a:hover {
+  text-decoration: none;
+  color: #9C0046;
+}
+
+.enterButton {
+  font-family: 'Roboto Slab'
+  font-weight: 700;
+  font-size: 80px;
+  text-align: center;
+}
+
+.enterButton a {
+  text-decoration: none;
+  color: black;
+
+}
+
+.enterButton a:hover {
+  text-decoration: none;
+  color: #9C0046;
+}
