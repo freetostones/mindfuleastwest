@@ -183,7 +183,7 @@ html, body {
   padding-bottom: 3%;
 }
 
-#sectionHeader {
+.sectionHeader {
   font-size: 30px;
   font-weight: bold;
   font-style: italic;
@@ -194,10 +194,13 @@ html, body {
 }
 
 .container {
+  padding-top: 5%;
   padding-bottom: 50px;
 }
 
 .infoSection {
-  height: 100vw;
+  height: 550px;
   overflow-y: scroll;
+  overflow-x: hidden;
 }
+
