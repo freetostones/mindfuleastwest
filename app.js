@@ -13,6 +13,7 @@ app.use(express.static(__dirname + '/public'));
 
 
 app.get('/', function(req, res) {res.render('index.html')});
+app.get('/sections', function(req, res) {res.render('sections.html')});
 
 /// catch 404 and forward to error handler
 app.use(function(req, res, next) {
