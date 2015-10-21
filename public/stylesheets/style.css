@@ -115,7 +115,8 @@ html, body {
     list-style:none;
     background-color: #F6B50F;
     text-align:center;
-    font-family: 'Merriweather';
+    font-family: 'Roboto Slab';
+    font-weight: bolder;
     display: flex;
 }
 .nav li {
@@ -128,6 +129,7 @@ html, body {
     text-align:center;
     display: block;
     vertical-align: middle;
+    text-decoration: none;
     color: white;
     /*padding:12px 0 13px 0;*/
     margin:auto, 0;
@@ -135,16 +137,15 @@ html, body {
     border-right: 1px solid #fff;*/
     
 }
+.nav a:hover {
+    text-decoration: none;
+    color: white;    
+}
+
 .nav li:hover {
     background:#D84F25;
     border:none;
 }
-
-/*
-#sampleText {
-  margin: 60px;
-  float: right;
-}*/
 
 #nav-center {
   position: relative;
@@ -160,9 +161,21 @@ html, body {
   margin: 0 20px 20px 0;
 }
 
-#title {
+/*#title {
   font-size: 150px;
   text-align: center;
+}*/
+
+.titileArea{
+ height:500px;
+}
+
+#titleImg {
+  display: block;
+  margin: auto;
+  padding-top: 3%;
+  padding-bottom: 3%;
+}
 }
 
 #sectionHeader {
