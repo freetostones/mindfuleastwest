@@ -314,3 +314,19 @@ html, body {
     color: black;
   }
 /*End of placeHolder CSS*/
+
+#information h3 {
+  font-family: 'Roboto Slab', serif;
+
+  padding: 3%;
+
+}
+
+.pageTitle {
+  padding-bottom: 5%
+
+}
+
+.pageTitle h1 {
+  font-family: 'Roboto Slab', serif;
+}
