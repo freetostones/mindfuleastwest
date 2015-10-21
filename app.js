@@ -14,6 +14,9 @@ app.use(express.static(__dirname + '/public'));
 
 app.get('/', function(req, res) {res.render('index.html')});
 app.get('/sections', function(req, res) {res.render('sections.html')});
+app.get('/about', function(req, res) {res.render('about.html')});
+app.get('/news', function(req, res) {res.render('news.html')});
+app.get('/donate', function(req, res) {res.render('donate.html')});
 
 /// catch 404 and forward to error handler
 app.use(function(req, res, next) {
