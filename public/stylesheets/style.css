@@ -56,14 +56,16 @@ a {
 }
 
 p {
-  margin: 50px;
-  padding-right: 400px;
   font-family: 'Roboto Slab', serif;
 	font-size: 18px;
-	font-style: normal;
-	font-variant: normal;
 	font-weight: 400;
 	line-height: 20px;
+  /*
+  font-style: normal;
+  font-variant: normal;
+  margin: 50px;
+  padding-right: 400px;
+  */
 }
 
 ul {
@@ -90,6 +92,7 @@ html, body {
     height: 10px;
     background: #D84F25;
 }
+/*
 #footerBar {
     position: fixed;
     height: 40px;
@@ -97,9 +100,7 @@ html, body {
     bottom:0px;
     left:0px;
     width:100%;
-    border-top: ;
-
-}
+}*/
 
 .nav {
   height: 40px;
@@ -127,6 +128,7 @@ html, body {
     text-align:center;
     display: block;
     vertical-align: middle;
+    color: white;
     /*padding:12px 0 13px 0;*/
     margin:auto, 0;
     /*border-left: 1px solid #fff;
@@ -138,10 +140,11 @@ html, body {
     border:none;
 }
 
+/*
 #sampleText {
   margin: 60px;
   float: right;
-}
+}*/
 
 #nav-center {
   position: relative;
@@ -150,4 +153,24 @@ html, body {
   -webkit-transform: translateY(-50%);
   -ms-transform: translateY(-50%);
   transform: translateY(-50%);
+}
+
+#imgSection {
+  width: 100%;
+  margin: 0 20px 20px 0;
+}
+
+#title {
+  font-size: 150px;
+  text-align: center;
+}
+
+#sectionHeader {
+  font-size: 30px;
+  font-weight: bold;
+  font-style: italic;
+  line-height: 30px;
+}
+#homeText {
+  text-align: left;
 }
