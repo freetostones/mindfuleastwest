@@ -229,7 +229,7 @@ html, body {
 }
 
 .enterButton {
-  font-family: 'Roboto Slab'
+  font-family: 'Roboto Slab', serif;
   font-weight: 700;
   font-size: 80px;
   text-align: center;
@@ -245,3 +245,72 @@ html, body {
   text-decoration: none;
   color: #9C0046;
 }
+/*placeHolder css*/
+.placeHolder {
+  vertical-align: middle;
+  display: inline-block;
+}
+.placeHolder h1 {
+  font-family: 'Roboto Slab', serif;
+  font-weight: 700;
+  font-size: 80px;
+  text-align: center;
+
+}
+
+.blinking-cursor {
+  font-family: 'Roboto Slab', serif;
+  font-weight: 700;
+  font-size: 40px;
+  color: #2E3D48;
+  -webkit-animation: 1s blink step-end infinite;
+  -moz-animation: 1s blink step-end infinite;
+  -ms-animation: 1s blink step-end infinite;
+  -o-animation: 1s blink step-end infinite;
+  animation: 1s blink step-end infinite;
+}
+
+@keyframes "blink" {
+  from, to {
+    color: transparent;
+  }
+  50% {
+    color: black;
+  }
+}
+
+@-moz-keyframes blink {
+  from, to {
+    color: transparent;
+  }
+  50% {
+    color: black;
+  }
+}
+
+@-webkit-keyframes "blink" {
+  from, to {
+    color: transparent;
+  }
+  50% {
+    color: black;
+  }
+}
+
+@-ms-keyframes "blink" {
+  from, to {
+    color: transparent;
+  }
+  50% {
+    color: black;
+  }
+}
+
+@-o-keyframes "blink" {
+  from, to {
+    color: transparent;
+  }
+  50% {
+    color: black;
+  }
+/*End of placeHolder CSS*/
